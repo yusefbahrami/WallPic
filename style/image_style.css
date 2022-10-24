@@ -20,6 +20,10 @@
   color: #fff;
   font-size: 25px;
 }
+.countainer .content .image-box .image-controles a {
+  text-decoration: none;
+  color: #fff;
+}
 .countainer .content .image-box .image-controles i {
   margin: 5px;
   transition: all 0.3s;
@@ -30,7 +34,7 @@
 .countainer .content .image-box .image-controles .fa-solid.fa-heart {
   color: #dc143c;
 }
-.countainer .content .image-box .image-controles .fa-download:hover{
+.countainer .content .image-box .image-controles a .fa-download:hover {
   color: #0275d8;
 }
 .countainer .content .image-box .image-controles .fa-share-nodes:hover {
