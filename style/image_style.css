@@ -1,0 +1,38 @@
+.countainer .content .image-box {
+  border: 1px solid #465685;
+  border-radius: 20px;
+  height: 300px;
+}
+.countainer .content .image-box img {
+  box-sizing: border-box;
+  width: 100%;
+  height: 75%;
+  border-radius: 20px;
+}
+
+.countainer .content .image-box .image-controles {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 25px;
+}
+.countainer .content .image-box .image-controles i {
+  margin: 5px;
+  transition: all 0.3s;
+}
+.countainer .content .image-box .image-controles .fa-heart:hover {
+  color: #dc143c;
+}
+.countainer .content .image-box .image-controles .fa-solid.fa-heart {
+  color: #dc143c;
+}
+.countainer .content .image-box .image-controles .fa-download:hover{
+  color: #0275d8;
+}
+.countainer .content .image-box .image-controles .fa-share-nodes:hover {
+  color: #465685;
+}
